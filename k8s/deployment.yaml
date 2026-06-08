@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/component: web
     app.kubernetes.io/part-of: shine-gitops-platform
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 5
   strategy:
     type: RollingUpdate
