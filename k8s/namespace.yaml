@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: shine-app
+  labels:
+    app.kubernetes.io/name: shine-project
+    app.kubernetes.io/part-of: shine-gitops-platform
+
