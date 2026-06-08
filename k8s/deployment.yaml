@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: shine-project
-          image: angs009/shine-project:latest
+          image: angira9/shine-app:v1
           imagePullPolicy: Always
           ports:
             - name: http
